@@ -61,7 +61,7 @@ $(".optional__slider1").slick({
 
 // TIMER
 document.addEventListener("DOMContentLoaded", function () {
-  const deadline = new Date(2022, 05, 31);
+  const deadline = new Date(2022, 08, 01);
   let timerId = null;
   function declensionNum(num, words) {
     return words[
@@ -143,6 +143,6 @@ function initializeClock(id, endtime) {
   updateClock();
   var timeinterval = setInterval(updateClock, 1000);
 }
-var deadline = "july 01 2022 00:00:00 GMT+0300";
+var deadline = "september 01 2022 00:00:00 GMT+0300";
 // var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000); // for endless timer
 initializeClock("countdown", deadline);
