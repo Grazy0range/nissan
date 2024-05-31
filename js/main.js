@@ -61,7 +61,7 @@ $(".optional__slider1").slick({
 
 // TIMER
 document.addEventListener("DOMContentLoaded", function () {
-  const deadline = new Date(2022, 08, 01);
+  const deadline = new Date(2025, 08, 01);
   let timerId = null;
   function declensionNum(num, words) {
     return words[
